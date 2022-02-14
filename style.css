@@ -1,0 +1,115 @@
+* {
+    /* Emmet */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .col-third{
+    width: 33.33333%;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+.clear {
+    clear: both;
+  }
+
+  #header{
+      /* width: 100%;
+      height: 600px;
+      background-image: url(./img/banner.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; */
+  padding-top: 50%;
+  background: url("./img/banner.jpg") top center / cover no-repeat;
+  }
+
+#nav{
+    height: 46px;
+    background-color: #CCC;
+    list-style: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li a{
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 46px;
+    padding: 0px 24px;
+}
+
+#nav li a:hover{
+    background-color: #AAA;
+}
+
+#content{
+    
+}
+
+.title{
+    text-align: center;
+    margin: 16px 0;
+    text-transform: uppercase;
+}
+
+.img-car img{
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.price{
+
+}
+
+.description{
+    margin: 16px 0;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#footer {
+    /* padding: 64px 16px; */
+    padding: 28px 14px;
+    text-align: center;
+}
+  
+  #footer .social-list{
+    font-size: 24px;
+  }
+  
+  #footer .social-list a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  #footer .copyright a,
+  #footer .social-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  #footer .copyright{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  #footer .copyright a{
+    color: rgba(0, 0, 0, 0.6);
+  }
+  /** End footer **/
+
