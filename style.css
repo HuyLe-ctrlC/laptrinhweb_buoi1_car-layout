@@ -30,9 +30,10 @@
       background-image: url(./img/banner.jpg);
       background-repeat: no-repeat;
       background-size: cover; */
-  padding-top: 50%;
-  background: url("./img/banner.jpg") top center / cover no-repeat;
+      padding-top: 50%;
+      background: url("./img/banner.jpg") top center / cover no-repeat;
   }
+
 
 #nav{
     height: 46px;
@@ -65,6 +66,7 @@
     text-align: center;
     margin: 16px 0;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .img-car img{
